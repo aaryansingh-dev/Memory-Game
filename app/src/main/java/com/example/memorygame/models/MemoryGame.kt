@@ -1,5 +1,6 @@
 package com.example.memorygame.models
 
+import android.util.Log
 import com.example.memorygame.utils.DEFAULT_ICONS
 
 class MemoryGame(private val boardSize: BoardSize)
