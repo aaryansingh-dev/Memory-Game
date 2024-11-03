@@ -68,6 +68,7 @@ class MainActivity : AppCompatActivity(){
         // initialize startForResult: ActivityResultLauncher<Intent>
         startForResult = registerForActivityResult(ActivityResultContracts.StartActivityForResult()){result ->
             // some data handling
+            // testing commit
         }
 
     }
